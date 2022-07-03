@@ -61,7 +61,7 @@
         <div class="column is-one-quarter">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" id="referenceWidth" type="number" placeholder=" " bind:value={referenceWidth}>
+                    <input class="input is-medium with-floating-label mt-2" name="referenceWidth" type="number" placeholder=" " bind:value={referenceWidth}>
                     <label class="label is-medium is-floating-label has-text-grey" for="referenceWidth">Reference Width</label>
                 </div>
             </div>
@@ -69,7 +69,7 @@
         <div class="column is-one-quarter">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" type="number" id="referenceHeight" placeholder=" " bind:value="{referenceHeight}">
+                    <input class="input is-medium with-floating-label mt-2" type="number" name="referenceHeight" placeholder=" " bind:value="{referenceHeight}">
                     <label class="label is-medium has-text-grey is-floating-label" for="referenceHeight">Reference Height</label>
                 </div>
             </div>
@@ -81,7 +81,7 @@
         <div class="column is-one-quarter">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" type="number" id="newWidth" placeholder=" " bind:value="{newWidth}" on:blur={calculateHeight}>
+                    <input class="input is-medium with-floating-label mt-2" type="number" name="newWidth" placeholder=" " bind:value="{newWidth}" on:blur={calculateHeight}>
                     <label class="label is-medium has-text-grey is-floating-label" for="newWidth">New Width</label>
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <div class="column is-one-quarter">
             <div class="field">
                 <div class="control has-floating-label">
-                    <input class="input is-medium with-floating-label mt-2" type="number" id="newHeight" placeholder=" " bind:value="{newHeight}" on:blur={calculateWidth}>
+                    <input class="input is-medium with-floating-label mt-2" type="number" name="newHeight" placeholder=" " bind:value="{newHeight}" on:blur={calculateWidth}>
                     <label class="label is-medium has-text-grey is-floating-label" for="newHeight">New Height</label>
                 </div>
             </div>
